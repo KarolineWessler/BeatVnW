@@ -1,0 +1,169 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .hero{
+    background-color:#129799;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.content{
+    background-color: #FFA185;
+    width: 100%;
+}
+
+.text{
+    position: relative;
+    top: 25%;
+    font-size: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text img{
+    width: 500px;
+    height: auto;
+    float: right;
+}
+
+.text h1{
+    color: #fff;
+}
+
+.bottom-nav{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.bottom-nav ul li{
+    list-style: none;
+    margin-right: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+.text-content h1{
+    color: #fff;
+    margin-top: 0;
+}
+
+.text-content p{
+    font-weight: 500;
+}
+
+.text-content{
+    padding-left: 80px;
+    padding-top: 100px;
+}
+
+.fotos{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.md-02{
+    text-align: center;
+
+}
+
+.md-02 img{
+    width: 40%;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: #129799;
+    justify-content: space-between;
+}
+
+footer .redes-sociais{
+    padding-top: 35px;
+    margin-left: 100px;
+}
+
+footer .redes-sociais img{
+    padding-right: 25px;
+    width: 30px;
+    height: auto;
+}
+
+.nav-footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-footer ul li{
+    list-style: none;
+    margin-right: 20px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.nav-footer ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 0;
+}
